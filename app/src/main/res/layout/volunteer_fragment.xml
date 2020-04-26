@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Register to volunteering groups."
+        />
+    <CheckBox
+        android:id="@+id/transport"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Transport people in need."
+        android:layout_below="@id/register"
+        />
+    <CheckBox
+        android:id="@+id/isolated"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Assist isolated people."
+        android:layout_below="@id/transport"
+        />
+    <CheckBox android:id="@+id/homeless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assist homeless / refugees."
+        android:layout_below="@id/isolated"
+        />
+    <CheckBox android:id="@+id/entertain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entertain isolated people."
+        android:layout_below="@id/homeless"
+        />
+    <CheckBox android:id="@+id/children"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assist Children."
+        android:layout_below="@id/entertain"
+        />
+    <CheckBox android:id="@+id/education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education."
+        android:layout_below="@id/children"
+        />
+    <CheckBox android:id="@+id/culture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Culture."
+        android:layout_below="@id/education"
+        />
+    <CheckBox android:id="@+id/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Supply."
+        android:layout_below="@id/culture"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

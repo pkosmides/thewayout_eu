@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/icons8_map_24"
+            android:title="Assistance Points" />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/icons8_news_24"
+            android:title="News from WHO" />
+
+        <item
+            android:id="@+id/newsus"
+            android:icon="@drawable/icons8_us_24"
+            android:title="News from CDC" />
+
+        <item
+            android:id="@+id/newscy"
+            android:icon="@drawable/icons8_eu_24"
+            android:title="News from CY PIO" />
+
+        <item
+            android:id="@+id/usefulinfo"
+            android:icon="@drawable/icons8_wikipedia_24"
+            android:title="Useful Information"
+            />
+
+        <item
+            android:id="@+id/askquestion"
+            android:icon="@drawable/icons8_chat_24"
+            android:title="Chat with me"
+            />
+
+        <item
+            android:id="@+id/volunteer"
+            android:icon="@drawable/icons_volunteer"
+            android:title="Volunteering Groups"
+            />
+
+    </group>
+
+</menu>
