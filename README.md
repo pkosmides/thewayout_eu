@@ -6,5 +6,6 @@ The concept is to provide a mobile application that will provide useful informat
 - fight #disinformation and #fakenews: the application will provide official news for the evolution of COVID-19 
 - Smart Assistant: provide advice to citizens
 - Volunteering:  support groups of people who want to help fellow citizens in need. 
+
 #hackinpjs #euvsvirus #HacktheCrisis #EUSolidarity #StrongerTogether #TogetherWeCan
 #thewayout #catalink #covid19 
